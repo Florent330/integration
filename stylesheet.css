@@ -1,0 +1,124 @@
+@font-face{
+	font-family: "AnironC";
+	src:url("police/anicb___.ttf");
+}
+@font-face{
+	font-family: "party Business";
+	src:url("police/partybusiness.ttf");
+}
+h1, h2, h3, h4, h5{
+	font-family: "AnironC";
+}
+
+body{
+	font-family: "party Business";
+	
+}	
+
+p{
+	font-size: 1em;
+
+}
+.navigation{
+	background-color: rgb(255, 91,4);
+}
+.logoNav
+{
+	width: 17%;
+	height: 17%;
+}
+.fond{
+	background-image: url("image/bg_light.png");
+}
+a{
+	color: white;
+	font-size: 1.05em;
+}
+.titleVador{
+top: 40%;
+font-size: 1.5em;
+}
+.fellowsSoulign{
+text-decoration: underline;
+}
+.container{
+	width: 100%;
+}
+.mediabody{
+	content: 
+}
+.textCarousel{
+	text-align: center;
+}
+.arrondi{
+	border-radius: 50%;
+	margin: 60px;
+}
+.imgAnneau{
+	object-fit: cover;
+	height: 60vh;
+}
+
+.imgAnneau img{
+	min-width: 100%;
+}
+
+.menu{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tailleTxt{
+	width: 75%;
+}
+.textImg{
+	position : absolute;
+	top: 0.5em;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 20px;
+	text-align: center;
+	font-size: 140%;
+	width: 70%;
+}
+.textImage{
+	position : absolute;
+	left: 20%;
+	top: 40%;
+	padding-left: 25%;
+	padding-right: 25%;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 20px;
+	text-align: center;
+	font-size: 140%;
+}
+.thousand{
+	color: #FF8C00
+}
+.cardModif1{
+	opacity: 0.5;
+}
+.cardModif:hover .cardModif1{
+	opacity: 1;
+}
+.cardModif2{
+	opacity: 0.5;
+}
+.cardModif:hover .cardModif2{
+	opacity: 1;
+}
+.cardModif3{
+	opacity: 0.5;
+}
+.cardModif:hover .cardModif3{
+	opacity: 1;
+}
+.cardModif:hover .textImg{
+	visibility: hidden;
+}
+.cardModif:hover .textImage{
+	visibility: hidden;
+}
+footer{
+	background-color: grey;
+}
