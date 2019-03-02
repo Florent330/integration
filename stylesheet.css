@@ -1,14 +1,20 @@
 @font-face{
 	font-family: "AnironC";
 	src:url("police/anicb___.ttf");
+
 }
 @font-face{
 	font-family: "party Business";
 	src:url("police/partybusiness.ttf");
 }
+@font-face{
+        font-family: "Tengwar Annatar";
+        src:url("police/tngan.ttf") format("truetype");
+}
 h1, h2, h3, h4, h5{
 	font-family: "AnironC";
 }
+
 
 body{
 	font-family: "party Business";
@@ -18,6 +24,10 @@ body{
 p{
 	font-size: 1em;
 
+}
+hr{
+	color: rgba(255, 255, 255, 0.5);
+	height: 1px;
 }
 .navigation{
 	background-color: rgb(255, 91,4);
@@ -30,16 +40,20 @@ p{
 .fond{
 	background-image: url("image/bg_light.png");
 }
+.bg_dark{
+	background-color: black;
+	color: white;
+}
 a{
 	color: white;
-	font-size: 1.05em;
+	font-size: 1.7em;
 }
 .titleVador{
-top: 40%;
-font-size: 1.5em;
+	top: 40%;
+	font-size: 1.5em;
 }
 .fellowsSoulign{
-text-decoration: underline;
+	text-decoration: underline;
 }
 .container{
 	width: 100%;
@@ -53,10 +67,6 @@ text-decoration: underline;
 .arrondi{
 	border-radius: 50%;
 	margin: 60px;
-}
-.imgAnneau{
-	object-fit: cover;
-	height: 60vh;
 }
 
 .imgAnneau img{
@@ -119,6 +129,14 @@ text-decoration: underline;
 .cardModif:hover .textImage{
 	visibility: hidden;
 }
+.symbole{
+	font-family: "Tengwar Annatar";
+	color: rgb(255, 91, 4);
+	letter-spacing: -2px;
+}
+.textColor{
+	color: grey;	
+}
 footer{
-	background-color: grey;
+	background-color: rgb(255, 91,4);
 }
