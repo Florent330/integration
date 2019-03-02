@@ -102,6 +102,23 @@ a{
 	text-align: center;
 	font-size: 140%;
 }
+.textImge{
+  position: absolute;
+  left: 2em;
+  top: 7em;
+  padding-left: 1em;
+  padding-right: 1em;
+  color: white;
+  font-size: 200%
+}
+.container:hover .textImge{
+  left: 5em;
+  top: 15em;
+  padding-left: 1em;
+  padding-right: 1em;
+  color: white;
+  font-size: 200%
+}
 .thousand{
 	color: #FF8C00
 }
