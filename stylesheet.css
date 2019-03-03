@@ -93,6 +93,12 @@ a{
 	font-size: 140%;
 	width: 70%;
 }
+.textColorBis{
+color: white;
+}
+.textColor2{
+color: black;
+}
 .textImage{
 	position : absolute;
 	left: 20%;
@@ -148,15 +154,32 @@ visibility: hidden;
 	font-family: "Tengwar Annatar";
 	color: rgb(255, 91, 4);
 }
-.coin_sauron{
-
-}
 
 .textColor{
 	color: grey;	
 }
 .texte_captured{
 	text-align: left;
+}
+.bouton_sauron{
+margin-right: 25%;
+margin-left: 40%
+}
+.best{
+	margin:0;
+
+}
+.arrierePlan{
+background-color: rgb(240, 236, 233);
+}
+.placement{
+  padding-left: 10em;
+
+  width: 100%; 
+
+}
+li{
+	 list-style-type: none; 
 }
 footer{
 	background-color: rgb(255, 91,4);
