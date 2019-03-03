@@ -78,7 +78,9 @@ a{
 	margin-left: auto;
 	margin-right: auto;
 }
-
+.raye{
+	text-decoration: line-through orange;
+}
 .tailleTxt{
 	width: 75%;
 }
@@ -111,14 +113,7 @@ a{
   color: white;
   font-size: 200%
 }
-.container:hover .textImge{
-  left: 5em;
-  top: 15em;
-  padding-left: 1em;
-  padding-right: 1em;
-  color: white;
-  font-size: 200%
-}
+
 .thousand{
 	color: #FF8C00
 }
@@ -146,13 +141,22 @@ a{
 .cardModif:hover .textImage{
 	visibility: hidden;
 }
+.cardModif:hover .textImge{
+visibility: hidden;
+}
 .symbole{
 	font-family: "Tengwar Annatar";
 	color: rgb(255, 91, 4);
-	letter-spacing: -2px;
 }
+.coin_sauron{
+
+}
+
 .textColor{
 	color: grey;	
+}
+.texte_captured{
+	text-align: left;
 }
 footer{
 	background-color: rgb(255, 91,4);
